@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+h1{
+    color: rgb(49, 49, 164);
+    margin-top: 100px;
+    font-size: 50px;
+    /* background-color: antiquewhite; */
+}
+.container{
+    /* height: 60vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.add-todo{
+    padding: 20px 196px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+}
+
+.add-todo:hover{
+    box-shadow: 0 0 11px rgb(89, 195, 231); 
+    /* border: 0px; */
+}
+
+.submit-button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(53, 53, 251);
+    color: #fff;
+    margin-left: 10px;
+}
+
+.submit-button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 11px white; 
+
+}
+
+.todo-list{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 8px;
+    /* padding: 10px; */
+}
+.todo-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.todo-items button{
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    /* background-color: green; */
+}
+
+.edit-button{
+    padding: 20px 30px;
+    background-color: lightgreen;
+}
+
+.edit-button:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.delete-button{
+    padding: 20px 28px;
+    background-color: lightcoral;
+}
+
+.delete-button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.item-content{
+    width: 64%;
+    background-color: #fff;
+    padding: 18px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
